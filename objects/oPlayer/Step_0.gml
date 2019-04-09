@@ -1,4 +1,4 @@
-var my_speed = 10;
+var my_speed = 30;
 
 // If you do not want to move when big_map is
 // show, then do something like this.
@@ -18,3 +18,5 @@ if (! oGame.big_map) {
 		x = x + my_speed;
 	}
 }
+
+visited_fog(x, y);
