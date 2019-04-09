@@ -1,10 +1,9 @@
 big_map = false;
 
 // 3X3 grid showing whether we see fog or not
-fog_a = 3;
-fog_b = 3;
-fog = array_create(fog_a * fog_b, true);
-fog_scale = 50;
+fog_a = 5;
+fog_b = 5;
+fog_scale = 30;
 
 var xx, yy, f;
 for (var a = 0; a < oGame.fog_a; a++) {
