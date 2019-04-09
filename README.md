@@ -11,3 +11,7 @@ Normal view:
 Overview map: (Note: The white dot is the player.)
 <br>
 <img src="images/view1.png" width="300">
+
+Note: Did a simple "fog of war" proof of concept.
+<img src="images/view2.png" width="300">
+ 
