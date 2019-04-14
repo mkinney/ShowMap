@@ -17,7 +17,13 @@ if (! oGame.big_map) {
 	if (keyboard_check(vk_right)) {
 		x = x + my_speed;
 	}
+	
+	// only check fog if they player moves
+	visited_fog(x, y);
+	
+	if (! instance_exists(oFog)) {
+		// they "won"
+		show_debug_message("all fogs have been cleared");
+	}
 
 }
-
-visited_fog(x, y);

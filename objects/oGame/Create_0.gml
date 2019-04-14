@@ -1,8 +1,8 @@
 big_map = false;
 
 // 3X3 grid showing whether we see fog or not
-fog_a = 5;
-fog_b = 5;
+fog_a = 2;
+fog_b = 2;
 fog_scale = 30;
 
 var xx, yy, f;
